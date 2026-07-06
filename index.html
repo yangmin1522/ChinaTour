@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime &amp; Melwa · Project Inspection Tour to China — Itinerary R10 (Jul 13–17, 2026)</title>
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5496; --gold:#C9A227; --gold-d:#9C6B16;
+  --ink:#23303f; --grey:#5a6675; --line:#e4e8ef; --bg:#f5f7fb; --card:#ffffff;
+  --flight:#1F6FB2; --drive:#B45309; --hotel:#6A1B9A; --visit:#1F3864; --cruise:#00796B; --dining:#9C6B16; --leisure:#546E7A;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;}
+img{display:block;max-width:100%;}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px;}
+
+/* HERO */
+.hero{position:relative;min-height:74vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;
+  background:linear-gradient(180deg,#16233a 0%,#23436e 100%);}
+.hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55;}
+.hero .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,26,46,.25) 0%,rgba(15,26,46,.85) 100%);}
+.hero .inner{position:relative;z-index:2;width:100%;}
+.hero .wrap{padding-top:60px;padding-bottom:54px;}
+.kicker{letter-spacing:.32em;font-size:.78rem;text-transform:uppercase;color:#e9cf7f;font-weight:700;margin:0 0 12px;}
+.hero h1{font-size:clamp(2.1rem,6vw,4rem);line-height:1.05;margin:0 0 14px;font-weight:800;letter-spacing:-.5px;}
+.hero h1 small{display:block;font-size:.42em;font-weight:500;color:#dce5f3;letter-spacing:.02em;margin-top:10px;}
+.hero .meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:1rem;color:#eef2f8;margin-top:8px;}
+.hero .meta b{color:#fff;}
+.hero .host{margin-top:18px;font-size:.85rem;color:#cbd6e7;}
+.hero .host b{color:#fff;}
+.gline{height:4px;width:88px;background:var(--gold);border-radius:3px;margin:0 0 20px;}
+
+/* SECTION */
+section{padding:46px 0;}
+.sec-h{font-size:1.55rem;color:var(--navy);font-weight:800;margin:0 0 4px;}
+.sec-rule{height:3px;width:64px;background:var(--gold);border-radius:3px;margin:10px 0 22px;}
+.lead{color:var(--grey);font-size:1.02rem;max-width:760px;margin:0 0 24px;}
+
+/* AT A GLANCE CARDS */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(31,56,100,.06);
+  display:flex;flex-direction:column;}
+.card .ph{position:relative;aspect-ratio:3/2;background:linear-gradient(135deg,#23436e,#3d6098);overflow:hidden;}
+.card .ph img{width:100%;height:100%;object-fit:cover;}
+.card .ph .tag{position:absolute;top:10px;left:10px;background:var(--gold);color:#3a2a00;font-weight:800;font-size:.72rem;
+  padding:3px 9px;border-radius:20px;letter-spacing:.04em;}
+.card .body{padding:14px 15px 16px;}
+.card .city{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);font-weight:700;}
+.card h3{margin:3px 0 8px;font-size:1.02rem;color:var(--navy);}
+.card p{margin:0;font-size:.86rem;color:var(--grey);}
+.card .hotel{margin-top:10px;font-size:.78rem;color:var(--ink);border-top:1px dashed var(--line);padding-top:8px;}
+.card .hotel b{color:var(--hotel);}
+
+/* LEGEND */
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;}
+.chip{font-size:.72rem;font-weight:800;letter-spacing:.04em;padding:4px 10px;border-radius:20px;color:#fff;}
+.c-flight{background:var(--flight);}.c-drive{background:var(--drive);}
+.c-hotel{background:var(--hotel);}.c-visit{background:var(--visit);}.c-cruise{background:var(--cruise);}
+.c-dining{background:var(--dining);}.c-leisure{background:var(--leisure);}
+
+/* DAY */
+.day{margin-top:34px;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:0 6px 24px rgba(31,56,100,.07);}
+.day-head{background:var(--navy);color:#fff;padding:20px 24px;}
+.day-head .n{color:var(--gold);font-weight:800;letter-spacing:.06em;margin-right:10px;}
+.day-head h2{display:inline;font-size:1.4rem;font-weight:800;margin:0;}
+.day-head p{margin:6px 0 0;color:#cdd8ea;font-size:.92rem;}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:0;}
+.gallery figure{position:relative;margin:0;aspect-ratio:4/3;overflow:hidden;
+  background:linear-gradient(135deg,#26456e,#43689c);}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;}
+.gallery figure:hover img{transform:scale(1.06);}
+.gallery figcaption{position:absolute;left:0;bottom:0;right:0;padding:18px 12px 9px;color:#fff;font-size:.8rem;font-weight:600;
+  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.72));}
+
+/* SNAPSHOT */
+.snap{display:flex;flex-wrap:wrap;gap:10px;padding:18px 24px;background:#faf7ed;border-bottom:1px solid #f0e8cf;}
+.snap .s{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--ink);}
+.snap .s b{font-size:.7rem;font-weight:800;letter-spacing:.04em;padding:3px 9px;border-radius:20px;color:#fff;}
+
+/* TIMELINE */
+.tl{padding:8px 24px 24px;}
+.tl .row{display:grid;grid-template-columns:120px 1fr 230px;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start;}
+.tl .row:last-child{border-bottom:none;}
+.tl .time{font-weight:800;color:var(--blue);font-size:.96rem;}
+.tl .act{font-size:.98rem;color:var(--ink);}
+.tl .logi{font-size:.85rem;color:var(--grey);}
+.tl .logi .lab{font-weight:800;font-size:.7rem;letter-spacing:.04em;padding:2px 8px;border-radius:18px;color:#fff;margin-right:7px;display:inline-block;}
+.lab.flight{background:var(--flight);}.lab.drive{background:var(--drive);}
+.lab.hotel{background:var(--hotel);}.lab.visit{background:var(--visit);}.lab.cruise{background:var(--cruise);}
+.lab.dining{background:var(--dining);}.lab.leisure{background:var(--leisure);}
+.day-note{padding:0 24px 22px;color:var(--grey);font-size:.92rem;}
+
+/* LOGISTICS TABLES */
+.tbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:0 0 26px;font-size:.9rem;}
+.tbl caption{text-align:left;font-weight:800;font-size:1.05rem;padding:0 0 10px;}
+.tbl th{color:#fff;text-align:left;padding:11px 14px;font-size:.82rem;letter-spacing:.03em;}
+.tbl td{padding:11px 14px;border-top:1px solid var(--line);}
+.tbl tr:nth-child(even) td{background:#f7f9fc;}
+.th-flight th{background:var(--flight);}.th-drive th{background:var(--drive);}.th-hotel th{background:var(--hotel);}
+.tbl td:first-child{font-weight:700;}
+
+/* FOOTER */
+footer{background:var(--navy);color:#cdd8ea;padding:30px 0;font-size:.84rem;}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;align-items:center;}
+footer b{color:#fff;}
+.note{background:#fff;border-left:4px solid var(--gold);padding:14px 18px;border-radius:8px;color:var(--grey);font-size:.88rem;margin-top:6px;}
+
+@media(max-width:860px){
+  .cards{grid-template-columns:repeat(2,1fr);}
+  .tl .row{grid-template-columns:84px 1fr;}
+  .tl .logi{grid-column:1 / -1;padding-left:0;}
+  .gallery{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:520px){
+  .cards{grid-template-columns:1fr;}
+  .gallery{grid-template-columns:1fr 1fr;}
+  .hero{min-height:70vh;}
+  .day-head{padding:18px;}.snap{padding:14px 18px;}.tl{padding:6px 18px 18px;}.day-note{padding:0 18px 18px;}
+  .tbl{font-size:.78rem;}.tbl th,.tbl td{padding:8px 9px;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <img class="bg" alt="" referrerpolicy="no-referrer"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg/1920px-Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg"
+    onerror="this.style.display='none'">
+  <div class="scrim"></div>
+  <div class="inner"><div class="wrap">
+    <p class="kicker">China Harbour Engineering Company · CHEC</p>
+    <div class="gline"></div>
+    <h1>Prime &amp; Melwa — Project Inspection Tour to China
+      <small>Chairman&rsquo;s Delegation · Itinerary · R10</small></h1>
+    <div class="meta">
+      <span><b>Shanghai · Hangzhou</b></span>
+      <span><b>July 13 – 17, 2026</b></span>
+      <span><b>5 Days / 4 Nights</b></span>
+    </div>
+    <p class="host">Hosted &amp; arranged by <b>China Harbour Engineering Company Ltd. (CHEC)</b></p>
+  </div></div>
+</header>
+
+<!-- AT A GLANCE -->
+<section>
+  <div class="wrap">
+    <h2 class="sec-h">At a Glance</h2>
+    <div class="sec-rule"></div>
+    <p class="lead">A five-day inspection tour across Shanghai and Hangzhou &mdash; featuring Greentown&rsquo;s flagship high-end residential developments, its Design Institute and Building Research Center, and a premium project under construction, combined with curated cultural highlights: the Álvaro Siza-designed China Design Museum, West Lake, and a relaxed final stretch back in Shanghai with time at leisure and an optional escorted city experience.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="ph"><span class="tag">DAY 1 · JUL 13</span><img alt="Shanghai skyline" referrerpolicy="no-referrer"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Shanghai_-_Skyline_Sunset_0057.jpg/1280px-Shanghai_-_Skyline_Sunset_0057.jpg" onerror="this.style.display='none'"></div>
+        <div class="body"><div class="city">Shanghai</div>
+          <h3>Arrival &amp; Chaoming Bund</h3>
+          <p>VIP arrival &amp; rest · Lujiazui lunch · Greentown Chaoming Bund project · the Bund · club dinner · night cruise</p>
+          <div class="hotel"><b>Hotel:</b> Pudong Shangri-La, Shanghai</div></div>
+      </div>
+      <div class="card">
+        <div class="ph"><span class="tag">DAY 2 · JUL 14</span><img alt="China Design Museum" referrerpolicy="no-referrer"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg/1280px-20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg" onerror="this.style.display='none'"></div>
+        <div class="body"><div class="city">Shanghai &rarr; Hangzhou</div>
+          <h3>Design Museum &amp; West Lake</h3>
+          <p>Coach to Hangzhou · China Design Museum (Siza / Bauhaus) · West Lake cruise · Hubin street · lakeside dinner · in77</p>
+          <div class="hotel"><b>Hotel:</b> Blossom Hill Hotel Xixi</div></div>
+      </div>
+      <div class="card">
+        <div class="ph"><span class="tag">DAY 3 · JUL 15</span><img alt="Hangzhou Future Sci-Tech City" referrerpolicy="no-referrer"
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dream_Town_ofHangzhou_Future_Sci-Tech_City.jpg" onerror="this.style.display='none'"></div>
+        <div class="body"><div class="city">Hangzhou</div>
+          <h3>Greentown Deep Dive</h3>
+          <p>Design Institute &amp; capability presentation · Building Research Center · Xijing Henglu site visit · evening at leisure</p>
+          <div class="hotel"><b>Hotel:</b> Blossom Hill Hotel Xixi</div></div>
+      </div>
+      <div class="card">
+        <div class="ph"><span class="tag">DAY 4 · JUL 16</span><img alt="Yu Garden, Shanghai" referrerpolicy="no-referrer"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuyuan_Garden_2.jpg/1280px-Yuyuan_Garden_2.jpg" onerror="this.style.display='none'"></div>
+        <div class="body"><div class="city">Hangzhou &rarr; Shanghai</div>
+          <h3>Return to Shanghai · At Leisure</h3>
+          <p>Private coach to Shanghai (arr ~12:00) · check-in Pudong Shangri-La · afternoon &amp; evening at leisure · optional escorted city tour</p>
+          <div class="hotel"><b>Hotel:</b> Pudong Shangri-La, Shanghai</div></div>
+      </div>
+      <div class="card">
+        <div class="ph"><span class="tag">DAY 5 · JUL 17</span><img alt="Shanghai Pudong Airport T1" referrerpolicy="no-referrer"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Terminal_1_of_Shanghai_Pudong_International_Airport_from_Pudong_International_Airport_Station_%28Shanghai_Maglev%29.jpg/1280px-Terminal_1_of_Shanghai_Pudong_International_Airport_from_Pudong_International_Airport_Station_%28Shanghai_Maglev%29.jpg" onerror="this.style.display='none'"></div>
+        <div class="body"><div class="city">Shanghai &rarr; Colombo</div>
+          <h3>Departure</h3>
+          <p>Free morning (back by 10:30) · depart hotel 11:00 · flight MU6017 dep 14:25 · arrive Colombo 19:00</p>
+          <div class="hotel"><b>Flight:</b> MU6017 · dep 14:25</div></div>
+      </div>
+    </div>
+    <div class="legend" style="margin-top:22px;">
+      <span class="chip c-flight">FLIGHT</span><span class="chip c-drive">DRIVE</span><span class="chip c-visit">VISIT</span>
+      <span class="chip c-cruise">CRUISE</span><span class="chip c-dining">DINING</span><span class="chip c-leisure">LEISURE</span>
+      <span class="chip c-hotel">HOTEL</span>
+    </div>
+  </div>
+</section>
+
+<!-- DAYS -->
+<section style="padding-top:0;">
+  <div class="wrap">
+
+  <!-- DAY 1 -->
+  <article class="day" id="day1">
+    <div class="day-head"><span class="n">DAY 1 · MON, JUL 13</span><h2>Arrival in Shanghai · Chaoming Bund · The Bund by Night</h2>
+      <p>VIP arrival &amp; morning rest · Lujiazui lunch · Greentown Chaoming Bund project · the Bund · club dinner · Huangpu night cruise · shopping</p></div>
+    <div class="gallery">
+      <figure><img alt="Pudong Shangri-La, Shanghai" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Shangri-La_Pudong.JPG/1280px-Shangri-La_Pudong.JPG" onerror="this.style.display='none'">
+        <figcaption>Pudong Shangri-La — riverside home in Lujiazui</figcaption></figure>
+      <figure><img alt="The Bund heritage architecture" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Palace_Hotel_The_Bund.JPG/1280px-Palace_Hotel_The_Bund.JPG" onerror="this.style.display='none'">
+        <figcaption>Heritage architecture, the Bund</figcaption></figure>
+      <figure><img alt="Huangpu River night cruise" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/23/Huangpu_River_Boat_%2838852714630%29.jpg" onerror="this.style.display='none'">
+        <figcaption>Huangpu River night cruise</figcaption></figure>
+    </div>
+    <div class="snap">
+      <span class="s"><b class="c-flight">FLIGHT</b> MU6018 arr. 06:10 (PVG)</span>
+      <span class="s"><b class="c-visit">VISIT</b> Greentown Chaoming Bund · 14:15</span>
+      <span class="s"><b class="c-hotel">HOTEL</b> Pudong Shangri-La, Shanghai</span>
+    </div>
+    <div class="tl">
+      <div class="row"><div class="time">06:10</div><div class="act">Arrive Shanghai Pudong Intl Airport (PVG)</div><div class="logi"><span class="lab flight">FLIGHT</span>MU6018 from Colombo (dep 20:30 prev. night), direct · VIP meet &amp; greet</div></div>
+      <div class="row"><div class="time">07:30&ndash;08:30</div><div class="act">Private car to the Pudong Shangri-La; early check-in &amp; morning rest</div><div class="logi"><span class="lab drive">DRIVE</span>~50 min · riverside Lujiazui, opposite the Bund</div></div>
+      <div class="row"><div class="time">12:30</div><div class="act">Depart hotel for lunch</div><div class="logi"><span class="lab drive">DRIVE</span>~5 min (or a 10-min riverside walk)</div></div>
+      <div class="row"><div class="time">12:40&ndash;13:50</div><div class="act">Lunch — Warehouse No.3 Creative Chinese Cuisine (Lujiazui, Super Brand Mall)</div><div class="logi"><span class="lab dining">DINING</span>private room; menus tailored to your preferences</div></div>
+      <div class="row"><div class="time">14:00</div><div class="act">Depart for the project visit</div><div class="logi"><span class="lab drive">DRIVE</span>~15 min via the river tunnel</div></div>
+      <div class="row"><div class="time">14:15&ndash;15:45</div><div class="act">Visit premium residential project — Greentown Chaoming Bund (North Bund, Hongkou)</div><div class="logi"><span class="lab visit">VISIT</span>~1.5 hrs · guided · direct views of the Lujiazui skyline</div></div>
+      <div class="row"><div class="time">16:00&ndash;17:00</div><div class="act">Stroll the Bund — heritage architecture &amp; riverside promenade</div><div class="logi"><span class="lab visit">VISIT</span>~1 hr at an easy pace</div></div>
+      <div class="row"><div class="time">17:15&ndash;19:15</div><div class="act">Dinner — The House of Roosevelt (Bund No.27, historic club venue over the river)</div><div class="logi"><span class="lab dining">DINING</span>alt: SKYLINE on the Bund</div></div>
+      <div class="row"><div class="time">19:30&ndash;20:30</div><div class="act">Huangpu River night cruise — city lights on both banks</div><div class="logi"><span class="lab cruise">CRUISE</span>chartered boat · Shiliupu Pier</div></div>
+      <div class="row"><div class="time">20:45&ndash;21:45</div><div class="act">Evening shopping — Nanjing Road East or IFC Mall (near hotel)</div><div class="logi"><span class="lab leisure">LEISURE</span>optional, at your pace</div></div>
+      <div class="row"><div class="time">22:00</div><div class="act">Return to the hotel; rest</div><div class="logi"><span class="lab hotel">HOTEL</span>&nbsp;</div></div>
+    </div>
+    <p class="day-note">A gracious arrival day: VIP airport reception, a morning&rsquo;s rest at the Pudong Shangri-La on the Lujiazui riverside, an afternoon visit to Greentown&rsquo;s flagship Chaoming Bund project — the only front-row Puxi residence facing the Lujiazui &ldquo;three towers&rdquo; — then the Bund, a club dinner and a night cruise on the Huangpu.</p>
+  </article>
+
+  <!-- DAY 2 -->
+  <article class="day" id="day2">
+    <div class="day-head"><span class="n">DAY 2 · TUE, JUL 14</span><h2>To Hangzhou · China Design Museum · West Lake</h2>
+      <p>Private coach to Hangzhou · Siza&rsquo;s China Design Museum &amp; the Bauhaus collection · West Lake cruise · Hubin street · lakeside sunset dinner · Intime in77</p></div>
+    <div class="gallery">
+      <figure><img alt="China Design Museum by Álvaro Siza" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg/1280px-20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg" onerror="this.style.display='none'">
+        <figcaption>China Design Museum — by Álvaro Siza</figcaption></figure>
+      <figure><img alt="Boat cruise on West Lake" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/West_Lake_Boat_Hangzhou_City.jpg/1280px-West_Lake_Boat_Hangzhou_City.jpg" onerror="this.style.display='none'">
+        <figcaption>Boat cruise on West Lake</figcaption></figure>
+      <figure><img alt="West Lake sunset with Leifeng Pagoda" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sunset_with_Leifeng_Pagoda_on_West_Lake.jpg/1280px-Sunset_with_Leifeng_Pagoda_on_West_Lake.jpg" onerror="this.style.display='none'">
+        <figcaption>Sunset over West Lake</figcaption></figure>
+    </div>
+    <div class="snap">
+      <span class="s"><b class="c-drive">DRIVE</b> Shanghai &rarr; Hangzhou · ~3 hrs</span>
+      <span class="s"><b class="c-visit">VISIT</b> China Design Museum · 14:00</span>
+      <span class="s"><b class="c-hotel">HOTEL</b> Blossom Hill Hotel Xixi (2 nights)</span>
+    </div>
+    <div class="tl">
+      <div class="row"><div class="time">07:30&ndash;08:30</div><div class="act">Breakfast, luggage &amp; check-out</div><div class="logi"><span class="lab hotel">HOTEL</span>luggage handled by escort team</div></div>
+      <div class="row"><div class="time">08:30</div><div class="act">Private coach to Hangzhou</div><div class="logi"><span class="lab drive">DRIVE</span>~185 km · ~3 hrs · one comfort stop</div></div>
+      <div class="row"><div class="time">~11:30</div><div class="act">Arrive Blossom Hill Hotel Xixi; check-in (2-night stay inside the Xixi Wetland Park)</div><div class="logi"><span class="lab hotel">HOTEL</span>courtyard boutique resort</div></div>
+      <div class="row"><div class="time">12:00&ndash;13:15</div><div class="act">Lunch at the hotel</div><div class="logi"><span class="lab dining">DINING</span>menus tailored to your preferences</div></div>
+      <div class="row"><div class="time">13:30</div><div class="act">Depart for the China Design Museum (China Academy of Art, Xiangshan campus)</div><div class="logi"><span class="lab drive">DRIVE</span>~23 min</div></div>
+      <div class="row"><div class="time">14:00&ndash;15:00</div><div class="act">China Design Museum — the Álvaro Siza building, the Bauhaus collection &amp; permanent design exhibitions</div><div class="logi"><span class="lab visit">VISIT</span>~1 hr · open Tue&ndash;Sun 9:30&ndash;16:30</div></div>
+      <div class="row"><div class="time">15:15</div><div class="act">Depart for West Lake</div><div class="logi"><span class="lab drive">DRIVE</span>~30 min</div></div>
+      <div class="row"><div class="time">15:45&ndash;17:30</div><div class="act">West Lake — chartered pleasure-boat cruise (~1 hr) &amp; lakeside stroll</div><div class="logi"><span class="lab cruise">CRUISE</span>UNESCO World Heritage · lotus season</div></div>
+      <div class="row"><div class="time">17:30&ndash;18:30</div><div class="act">Hubin Pedestrian Street — Hangzhou&rsquo;s lakefront promenade</div><div class="logi"><span class="lab leisure">LEISURE</span>walking, at your pace</div></div>
+      <div class="row"><div class="time">18:30&ndash;20:00</div><div class="act">Lakeside dinner — 28 Hubin Road (Michelin-starred Hangzhou cuisine, facing the lake; alt: Lou Wai Lou)</div><div class="logi"><span class="lab dining">DINING</span>sunset ~19:00 · window tables reserved</div></div>
+      <div class="row"><div class="time">20:00&ndash;21:00</div><div class="act">Shopping at Intime in77, Hubin</div><div class="logi"><span class="lab leisure">LEISURE</span>steps from the restaurant</div></div>
+      <div class="row"><div class="time">21:15</div><div class="act">Return to hotel; rest</div><div class="logi"><span class="lab drive">DRIVE</span>~30&ndash;40 min</div></div>
+    </div>
+    <p class="day-note">A day of design and scenery: the China Design Museum — a red-sandstone masterpiece by Pritzker laureate Álvaro Siza holding China&rsquo;s foremost Bauhaus collection — followed by a private cruise on West Lake, the lakefront Hubin promenade, dinner over the water at sunset, and shopping at Intime in77.</p>
+  </article>
+
+  <!-- DAY 3 -->
+  <article class="day" id="day3">
+    <div class="day-head"><span class="n">DAY 3 · WED, JUL 15</span><h2>Greentown Deep Dive — Design, Research &amp; Site</h2>
+      <p>Design Institute &amp; capability presentation · Building Research Center · Xijing Henglu under construction · dinner near Xixi</p></div>
+    <div class="gallery">
+      <figure><img alt="Hangzhou Future Sci-Tech City" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/2d/View_of_the_Hangzhou_Future_Sci-Tech_City.png" onerror="this.style.display='none'">
+        <figcaption>Future Sci-Tech City — the project district</figcaption></figure>
+      <figure><img alt="Dream Town, Hangzhou" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dream_Town_ofHangzhou_Future_Sci-Tech_City.jpg" onerror="this.style.display='none'">
+        <figcaption>Dream Town, Future Sci-Tech City</figcaption></figure>
+      <figure><img alt="Xixi Wetland at dusk" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Gorgeous_setting_for_a_cafe_inside_the_Xixi_Wetland_Park_%2836566278326%29.jpg/1280px-Gorgeous_setting_for_a_cafe_inside_the_Xixi_Wetland_Park_%2836566278326%29.jpg" onerror="this.style.display='none'">
+        <figcaption>Evening by the Xixi Wetland</figcaption></figure>
+    </div>
+    <div class="snap">
+      <span class="s"><b class="c-visit">VISIT</b> Design Institute · 09:15</span>
+      <span class="s"><b class="c-visit">VISIT</b> Building Research Center · 13:30</span>
+      <span class="s"><b class="c-visit">VISIT</b> Xijing Henglu site · 15:20</span>
+    </div>
+    <div class="tl">
+      <div class="row"><div class="time">09:00</div><div class="act">Depart hotel</div><div class="logi"><span class="lab drive">DRIVE</span>~15 min</div></div>
+      <div class="row"><div class="time">09:15&ndash;11:30</div><div class="act">Greentown China Design Institute — architectural design &amp; interior design studios; boardroom presentation on Greentown&rsquo;s design capabilities, with Q&amp;A</div><div class="logi"><span class="lab visit">VISIT</span>hosted by Greentown&rsquo;s design leadership</div></div>
+      <div class="row"><div class="time">11:45&ndash;13:00</div><div class="act">Lunch near the Design Institute</div><div class="logi"><span class="lab dining">DINING</span>private room reserved</div></div>
+      <div class="row"><div class="time">13:15</div><div class="act">Depart for the Building Research Center</div><div class="logi"><span class="lab drive">DRIVE</span>~20 min</div></div>
+      <div class="row"><div class="time">13:30&ndash;15:00</div><div class="act">Greentown Building Research Center — living lab, construction-methods institute &amp; future innovation workshop</div><div class="logi"><span class="lab visit">VISIT</span>~1.5 hrs · technical briefing</div></div>
+      <div class="row"><div class="time">15:10</div><div class="act">Depart for Xijing Henglu</div><div class="logi"><span class="lab drive">DRIVE</span>~10 min</div></div>
+      <div class="row"><div class="time">15:20&ndash;16:20</div><div class="act">Site visit — Xijing Henglu, premium low-density project under construction (site works + show units)</div><div class="logi"><span class="lab visit">VISIT</span>~1 hr · safety gear provided</div></div>
+      <div class="row"><div class="time">16:30</div><div class="act">Return to the Xixi area</div><div class="logi"><span class="lab drive">DRIVE</span>~30 min</div></div>
+      <div class="row"><div class="time">17:30&ndash;19:00</div><div class="act">Dinner near Xixi</div><div class="logi"><span class="lab dining">DINING</span>Hangzhou cuisine · private room</div></div>
+      <div class="row"><div class="time">Evening</div><div class="act">At leisure — rest at the hotel, or a nearby shopping mall (your choice)</div><div class="logi"><span class="lab leisure">LEISURE</span>car &amp; escort on standby</div></div>
+    </div>
+    <p class="day-note">The technical heart of the tour: a full morning inside Greentown&rsquo;s Design Institute — two dedicated buildings for architectural and interior design — with a boardroom presentation of its design capability; then the Building Research Center&rsquo;s R&amp;D showcase, and an hour on site at Xijing Henglu, one of Hangzhou&rsquo;s lowest-density premium projects, currently under construction.</p>
+  </article>
+
+  <!-- DAY 4 -->
+  <article class="day" id="day4">
+    <div class="day-head"><span class="n">DAY 4 · THU, JUL 16</span><h2>Return to Shanghai · Afternoon &amp; Evening at Leisure</h2>
+      <p>Private coach to Shanghai (arr ~12:00) · check-in Pudong Shangri-La · time at leisure · optional escorted city experience</p></div>
+    <div class="gallery">
+      <figure><img alt="Yu Garden, Shanghai" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuyuan_Garden_2.jpg/1280px-Yuyuan_Garden_2.jpg" onerror="this.style.display='none'">
+        <figcaption>Yu Garden &amp; the old town</figcaption></figure>
+      <figure><img alt="Nanjing Road pedestrian street" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2014.11.15.181419_Nanjing_Road_Pedestrian_Zone_Shanghai.jpg/1280px-2014.11.15.181419_Nanjing_Road_Pedestrian_Zone_Shanghai.jpg" onerror="this.style.display='none'">
+        <figcaption>Nanjing Road pedestrian street</figcaption></figure>
+      <figure><img alt="Wukang Mansion heritage quarter" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Wukang_Mansion_%2820191114161507%29.jpg/1280px-Wukang_Mansion_%2820191114161507%29.jpg" onerror="this.style.display='none'">
+        <figcaption>Wukang Mansion, heritage quarter</figcaption></figure>
+    </div>
+    <div class="snap">
+      <span class="s"><b class="c-drive">DRIVE</b> Hangzhou &rarr; Shanghai · ~3 hrs</span>
+      <span class="s"><b class="c-leisure">LEISURE</b> Afternoon &amp; evening free</span>
+      <span class="s"><b class="c-hotel">HOTEL</b> Pudong Shangri-La, Shanghai</span>
+    </div>
+    <div class="tl">
+      <div class="row"><div class="time">07:00&ndash;08:30</div><div class="act">Breakfast, luggage &amp; check-out</div><div class="logi"><span class="lab hotel">HOTEL</span>luggage handled by escort team</div></div>
+      <div class="row"><div class="time">09:00</div><div class="act">Private coach to Shanghai</div><div class="logi"><span class="lab drive">DRIVE</span>~210 km · ~3 hrs</div></div>
+      <div class="row"><div class="time">~12:00</div><div class="act">Arrive Pudong Shangri-La, Shanghai — check-in</div><div class="logi"><span class="lab hotel">HOTEL</span>the same riverside hotel as Day 1</div></div>
+      <div class="row"><div class="time">12:30&ndash;13:30</div><div class="act">Lunch at the hotel, or as you prefer</div><div class="logi"><span class="lab dining">DINING</span>reservations gladly assisted</div></div>
+      <div class="row"><div class="time">Afternoon</div><div class="act">At leisure — rest, the riverside promenade, or shopping (IFC Mall &amp; Super Brand Mall within easy reach)</div><div class="logi"><span class="lab leisure">LEISURE</span>car &amp; escort on standby</div></div>
+      <div class="row"><div class="time">Optional</div><div class="act">Escorted leisure tour of Shanghai — e.g. Yu Garden &amp; the old town, Nanjing Road &amp; the Bund, Xintiandi, the Wukang Road heritage quarter, or the Museum of Art Pudong</div><div class="logi"><span class="lab leisure">LEISURE</span>kindly advise CHEC one day ahead — car, escort &amp; interpreter arranged</div></div>
+      <div class="row"><div class="time">Evening</div><div class="act">Dinner &amp; evening at leisure</div><div class="logi"><span class="lab dining">DINING</span>recommendations &amp; bookings on request</div></div>
+    </div>
+    <p class="day-note">A relaxed return to Shanghai: a comfortable morning coach from the Xixi wetlands, noon check-in back at the Pudong Shangri-La, and the rest of the day entirely yours. Should you wish to experience more of the city, let the CHEC team know a day ahead and a car, escort and interpreter will accompany you — from the classical Yu Garden to the plane-tree-lined heritage quarters.</p>
+  </article>
+
+  <!-- DAY 5 -->
+  <article class="day" id="day5">
+    <div class="day-head"><span class="n">DAY 5 · FRI, JUL 17</span><h2>Morning at Leisure · Departure from Pudong</h2>
+      <p>Free morning (back at the hotel by 10:30) · depart 11:00 · flight MU6017 home to Colombo</p></div>
+    <div class="gallery">
+      <figure><img alt="Shanghai Pudong Airport Terminal 1" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Terminal_1_of_Shanghai_Pudong_International_Airport_from_Pudong_International_Airport_Station_%28Shanghai_Maglev%29.jpg/1280px-Terminal_1_of_Shanghai_Pudong_International_Airport_from_Pudong_International_Airport_Station_%28Shanghai_Maglev%29.jpg" onerror="this.style.display='none'">
+        <figcaption>Shanghai Pudong Airport, Terminal 1</figcaption></figure>
+      <figure><img alt="Pudong T1 departures hall" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Terminal_1_Departures%2C_Shanghai_Pudong_International_Airport.jpg/1280px-Terminal_1_Departures%2C_Shanghai_Pudong_International_Airport.jpg" onerror="this.style.display='none'">
+        <figcaption>T1 international departures</figcaption></figure>
+      <figure><img alt="Shanghai skyline farewell" referrerpolicy="no-referrer"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg/1280px-Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg" onerror="this.style.display='none'">
+        <figcaption>Farewell, Shanghai</figcaption></figure>
+    </div>
+    <div class="snap">
+      <span class="s"><b class="c-leisure">LEISURE</b> Free morning · back by 10:30</span>
+      <span class="s"><b class="c-drive">DRIVE</b> Hotel &rarr; PVG T1 · ~50 min</span>
+      <span class="s"><b class="c-flight">FLIGHT</b> MU6017 dep. 14:25 &rarr; Colombo 19:00</span>
+    </div>
+    <div class="tl">
+      <div class="row"><div class="time">07:00&ndash;09:00</div><div class="act">Breakfast at ease</div><div class="logi"><span class="lab hotel">HOTEL</span>relaxed start</div></div>
+      <div class="row"><div class="time">09:00&ndash;10:30</div><div class="act">At leisure — a riverside stroll or nearby shopping</div><div class="logi"><span class="lab leisure">LEISURE</span>kindly return to the hotel by 10:30</div></div>
+      <div class="row"><div class="time">10:30&ndash;11:00</div><div class="act">Regroup at the hotel — luggage loading &amp; check-out</div><div class="logi"><span class="lab hotel">HOTEL</span>assisted throughout</div></div>
+      <div class="row"><div class="time">11:00</div><div class="act">Depart for Shanghai Pudong Intl Airport, Terminal 1</div><div class="logi"><span class="lab drive">DRIVE</span>~50 min · punctual departure</div></div>
+      <div class="row"><div class="time">~11:50</div><div class="act">Arrive PVG T1 — international check-in, baggage &amp; departure formalities</div><div class="logi"><span class="lab flight">FLIGHT</span>full assistance · ~2.5 hrs buffer</div></div>
+      <div class="row"><div class="time">14:25</div><div class="act">Flight MU6017 departs for Colombo</div><div class="logi"><span class="lab flight">FLIGHT</span>Shanghai Pudong T1</div></div>
+      <div class="row"><div class="time">19:00</div><div class="act">Arrive Colombo Bandaranaike Intl Airport (local time) — tour concludes</div><div class="logi"><span class="lab flight">FLIGHT</span>farewell by CHEC representatives</div></div>
+    </div>
+    <p class="day-note">An unhurried homeward day: the morning is yours — a riverside stroll, breakfast at ease — with an 11:00 departure from the hotel, a 50-minute transfer to Pudong&rsquo;s Terminal 1, full departure assistance, and a mid-afternoon flight arriving in Colombo by early evening.</p>
+  </article>
+
+  </div>
+</section>
+
+<!-- LOGISTICS -->
+<section>
+  <div class="wrap">
+    <h2 class="sec-h">Travel Logistics</h2>
+    <div class="sec-rule"></div>
+
+    <table class="tbl th-flight">
+      <caption>Flights</caption>
+      <tr><th>Flight</th><th>Route</th><th>Schedule</th><th>Day</th></tr>
+      <tr><td>MU6018</td><td>Colombo &rarr; Shanghai Pudong</td><td>Dep 20:30 (Jul 12) · Arr 06:10 (Jul 13)</td><td>Day 1 · direct</td></tr>
+      <tr><td>MU6017</td><td>Shanghai Pudong (T1) &rarr; Colombo</td><td>Dep 14:25 · Arr 19:00 (Jul 17)</td><td>Day 5</td></tr>
+    </table>
+
+    <table class="tbl th-drive">
+      <caption>Ground Transfers (private business vehicles throughout)</caption>
+      <tr><th>Route</th><th>Distance / Time</th><th>Day</th></tr>
+      <tr><td>Pudong Airport &harr; Pudong Shangri-La</td><td>~50 min</td><td>Day 1 / Day 5</td></tr>
+      <tr><td>Pudong Shangri-La &rarr; Blossom Hill Hotel Xixi, Hangzhou</td><td>~185 km · ~3 hrs</td><td>Day 2 · private coach</td></tr>
+      <tr><td>Hotel &harr; China Design Museum &harr; West Lake</td><td>~23 min / ~30 min legs</td><td>Day 2</td></tr>
+      <tr><td>Hotel &harr; Design Institute &harr; Research Center &harr; Xijing Henglu</td><td>~10&ndash;30 min legs</td><td>Day 3</td></tr>
+      <tr><td>Blossom Hill Hotel Xixi &rarr; Pudong Shangri-La, Shanghai</td><td>~210 km · ~3 hrs</td><td>Day 4 · private coach</td></tr>
+    </table>
+
+    <table class="tbl th-hotel">
+      <caption>Hotels</caption>
+      <tr><th>Night(s)</th><th>Hotel</th><th>City / Area</th></tr>
+      <tr><td>Jul 13 (1 night)</td><td>Pudong Shangri-La, Shanghai</td><td>Shanghai · Lujiazui riverside, opposite the Bund</td></tr>
+      <tr><td>Jul 14 &ndash; 15 (2 nights)</td><td>Blossom Hill Hotel Xixi</td><td>Hangzhou · inside Xixi National Wetland Park</td></tr>
+      <tr><td>Jul 16 (1 night)</td><td>Pudong Shangri-La, Shanghai</td><td>Shanghai · Lujiazui riverside, opposite the Bund</td></tr>
+    </table>
+
+    <div class="note">
+      <b>Please note:</b> All visits, dining and activities are subject to final confirmation; times are indicative and may be
+      fine-tuned on the day to suit the delegation. Private business vehicles, accompanying staff and interpreters are arranged
+      by CHEC throughout. During the at-leisure periods on Day 4 and Day 5, a car and escort remain at your disposal — for an
+      escorted city tour, kindly advise the CHEC team one day in advance. Flight times follow the final tickets issued.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><b>China Harbour Engineering Company Ltd. (CHEC)</b> · Prime &amp; Melwa — Project Inspection Tour to China · July 2026 · Itinerary R10</div>
+    <div>Photography via Wikimedia Commons (Creative Commons licences)</div>
+  </div>
+</footer>
+
+</body>
+</html>
